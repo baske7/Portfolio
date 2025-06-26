@@ -1,0 +1,16 @@
+# node.js
+node_modules/
+
+# OS fajlovi
+.DS_Store
+Thumbs.db
+
+# Logovi i privremeni fajlovi
+*.log
+*.tmp
+
+# Env fajlovi (ako koristiš API ključeve)
+.env
+
+# VS Code podešavanja (opciono)
+.vscode/
