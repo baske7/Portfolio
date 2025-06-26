@@ -1,0 +1,10 @@
+.tekstPocetna{
+    width: calc(50%);
+}
+.pocetnaDiv{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: calc(30%);
+}
