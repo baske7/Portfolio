@@ -26,3 +26,11 @@ ul{
     height: 30em;
     width: 50em;
 }
+
+.forma{
+    background-color: rgba(241, 239, 239,0.4);
+    border-radius: 5px;
+}
+.dMreze{
+    list-style-type: none;
+}

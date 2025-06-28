@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+
+    <title>Contact Page</title>
 </head>
 <body>  
 <div class="container">
@@ -17,33 +20,60 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="contact.html">Contact</a>
             </li>
             </ul>
         </div>
     </nav>
+    <div class="row"><h1 class="h1 text-center mb-3">Contact Page 📬</h1> <hr></div>
         <div class="row col-md-12">
-            <div class="tekstPocetna col-md-6">
-                <h1 class="h1">Hi, I'm Nikola Basara.</h1>
-                <h2 class="h3">I'm a Junior Front-end developer from Serbia.</h2>
-                <h3 class="h5">I build websites and web applications, crafting responsive and engaging digital experiences.</h3>
-                <a class="btn btn-primary prj" href="projects.html" role="button">View Projects</a>
+            <div class="col-md-6 mb-3 ">
+            Thank you for visiting my portfolio! I would be delighted to hear from you if you have an intriguing project in mind, require a trustworthy developer to join your team, or just want to get in contact. <br> <br>
+            I'm always up for talking about fresh concepts, possible joint ventures, freelancing, or responding to any inquiries you may have. Please get in touch with me about any project, no matter how big or little, and I will respond as soon as I can. <br> <br>
+            Let’s create something great together! <hr> 
+            <h4 class="h6">Additionaly you can find me here: </h4>
+            <ul class="mt-1 dMreze list-unstyled">
+                <li><i class="fas fa-envelope me-2"></i>Email: <a href="mailto:nikolabasara2@gmail.com">nikolabasara2@gmail.com</a></li>
+                <li><i class="fas fa-map-marker-alt me-2"></i> Belgrade, Serbia</li>
+                <li><i class="fab fa-linkedin me-2"></i> <a href="https://www.linkedin.com/in/nikola-basara-a08069334/" target="_blank">Nikola Basara</a></li>
+                <li><i class="fab fa-github me-2"></i>  <a href="https://github.com/baske7" target="_blank">baske7</a></li>
+            </ul>
+
             </div>
-            <div class="col-md-6 slikaPocetna text-center">
-                <img src="img/portfolioSlika.jpg" class="img-fluid" alt="...">
+            
+            <div class="col-md-6 forma">
+                <h2 class="h2"><i>Feel free to send me a message! &#9993;</i></h4>
+                <form>
+                    <div class="form-group">
+                        <label for="firstName">Your first name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Enter Your first name"> <span id="errorMessageName" class="text-danger"></span>
+                        <label for="LastName">Last name</label>
+                        <input type="text" class="form-control" id="LastName" placeholder="Enter Your last name"><span id="errorMessageLastNme" class="text-danger" ></span>
+                        <label for="emailAddress">Email address</label>
+                        <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email"><span id="errorMessageEmail" class="text-danger"></span>
+                        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <span id="errorMessageText" class="text-danger"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-3 mb-2" id="dugme">Send</button>
+                    </form>
             </div>
         </div>
+        
+        <div class="row"></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
 </body>
 <script src="script.js"></script>
 </html>
